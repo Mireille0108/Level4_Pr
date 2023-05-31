@@ -68,7 +68,7 @@ transition:all 0.5s ease;
 `
 
 
-const Product = (item) => {
+const Product = ({item}) => {
   return (
     <Container>
       <Circle/>
